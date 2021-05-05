@@ -1,4 +1,4 @@
-''' This file is 1/2 of 
+''' This file is 1/3 of 
     the Soccer Training Technology's developed at UCSD for 
     1. MAE 199 - Spring 2021 with prof Jack Silberman and prof Mauricio de Oliveira
     2. Triton AI - STT 
