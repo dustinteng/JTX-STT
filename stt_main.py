@@ -342,6 +342,7 @@ def whole_detection(network, threshold, frames, total_frames, video_duration):
 	# detection intialization 
 	count = 0
 	db = []
+	#saving a video to a location
 	display = jetson.utils.videoOutput(bounded_video)
 	# processing each frame
 	for frame in frames:
@@ -428,7 +429,7 @@ def main():
 	matrix, loc_mid, homography= area_bound_calibration(frames)
 	print ('matrix = ' +str(matrix))
 	print ('homography = ' +str(homography))
-	print loc_mid
+	print (loc_mid)
 	print 'bbbb'
 	# print np.array([[loc_mid[0]],[loc_mid[1]],[1]])
 	print matrix
